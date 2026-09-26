@@ -1,5 +1,7 @@
 # Security Onion Network Security Monitoring Lab
 
+**Status:** Planned: Security Onion needs an x86-64 host with 8GB+ RAM for the sensor alone.
+
 A network-traffic-focused complement to the [SIEM detection lab](https://github.com/EbubeNnaemeka/siem-detection-lab): deploys Security Onion (Zeek + Suricata + Kibana) to monitor and triage network-level threats — port scans, C2 beaconing, and suspicious protocol usage — rather than host-level Windows telemetry.
 
 ## Why a separate stack from Splunk
@@ -42,3 +44,7 @@ Documented in [`alert-triage-log.md`](alert-triage-log.md):
 ├── README.md
 └── alert-triage-log.md
 ```
+
+---
+
+Part of my homelab portfolio: **[ebube-nnaemeka.pages.dev](https://ebube-nnaemeka.pages.dev)** · [All projects](https://github.com/EbubeNnaemeka)
